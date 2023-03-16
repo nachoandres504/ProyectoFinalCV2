@@ -1,0 +1,162 @@
+* {
+margin: 0;
+padding: 0;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+box-sizing: border-box;
+}
+/* Las herramientas fueron extraidas de W3Schools--> */
+body {
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: rgb(255, 254, 253);
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px;
+}
+.profiletext {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+}
+.profiletext h2 {
+    color: white;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1.4em;
+}
+.profiletext h2 span {
+    font-size: 0.7em;
+    font-weight: 100;
+}
+.profiletext .imgprofile img {
+    position: absolute;
+    top: 1;
+    left: 0;
+    width: 140%;
+    height: 150%;
+}
+.profiletext .imgprofile {
+position: relative;
+height: 200px;
+width: 200px;
+border-radius: 50%;
+overflow: hidden;
+}
+.container .left-side {
+    position: relative;
+    background: rgb(30, 68, 85);
+    padding: 40px;
+}
+.container .right-side {
+    position: relative;
+    background: floralwhite;
+    padding: 40px;
+}
+.contactinfo {
+    color: aliceblue;
+    padding-top: 35px;
+}
+.title {
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.contactinfo ul {
+    position: relative;
+}
+.contactinfo ul li {
+    position: relative;
+    margin: 8px;
+    font: caption;
+    cursor: pointer;
+}
+.contactinfo ul li span {
+    font-weight: 350px;
+    font-style: italic;
+}
+
+/*Haber puesto Educacion en mayusculas me volvio loco*/
+
+.Educacion {
+    position: relative;
+    color: aliceblue;
+    padding-top: 50px;
+}
+.Educacion ul {
+    position: relative;
+}
+.Educacion ul li {
+    margin: 10px;
+    font-weight: 350px;
+    font-style: italic;
+}
+.Educacion ul li h5 {
+    color: rgb(173, 164, 230);
+}
+.Descripcion h3 {
+    position: relative;
+    font-weight: 600px;
+    font: bold black;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.Descripcion p {
+    color: rgb(32, 18, 1);
+    text-align: justify;
+}
+.Descripcion2 h3 {
+    position: relative;
+    font-weight: 600px;
+    font: bold black;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+.puesto {
+ margin-bottom: 20px;
+}
+.puesto2 {
+    margin-bottom: 20px;
+}
+.puesto3 {
+    margin-bottom: 20px;
+}
+.fecha_empresa {
+    color:rgb(101, 83, 216);
+}
+.fecha_empresa2 {
+    color: rgb(101, 83, 216);
+}
+.fecha_empresa3 {
+    color: rgb(101, 83, 216);
+}
+.Descripcion3 h3 {
+    position: relative;
+    font-weight: 600px;
+    font: bold black;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+.Texto3 {
+    margin-top: 20px;
+    text-align: center;
+}
